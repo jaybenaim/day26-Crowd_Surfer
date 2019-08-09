@@ -8,7 +8,7 @@ from django.contrib.auth import login
 from django.contrib.auth.forms import UserCreationForm 
 from django.contrib.auth import authenticate
 from django.urls import reverse 
-
+from crowd_surfer.forms import *
 
 def root(request): 
     return redirect('home/')
